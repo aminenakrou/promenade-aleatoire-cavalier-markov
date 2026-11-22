@@ -13,8 +13,8 @@
 </p>
 
 <p align="center">
-  <a href="https://aminenakrou.github.io/Etude_Markovienne_de_la_promenade_du_cavalier_sur_un_echiquier">♞ Site interactif</a> &nbsp;·&nbsp;
-  <a href="https://github.com/aminenakrou/Etude_Markovienne_de_la_promenade_du_cavalier_sur_un_echiquier/blob/main/projet_MARKOV_version_finale.pdf">📄 Rapport PDF</a>
+  <a href="https://aminenakrou.github.io/promenade-aleatoire-cavalier-markov">♞ Site interactif</a> &nbsp;·&nbsp;
+  <a href="https://github.com/aminenakrou/promenade-aleatoire-cavalier-markov/blob/main/projet_MARKOV_version_finale.pdf">📄 Rapport PDF</a>
 </p>
 
 ---
@@ -29,7 +29,7 @@ Ce projet étudie trois questions fondamentales :
 2. **Temps de retour** — Calculer et simuler le temps moyen de retour aux coins de l'échiquier
 3. **Comportement asymptotique** — Analyser la sous-chaîne Y_n = X_{2n} aux instants pairs
 
-> ♞ **[Testez la simulation interactive →](https://aminenakrou.github.io/Etude_Markovienne_de_la_promenade_du_cavalier_sur_un_echiquier)** — Déplacez le cavalier sur un vrai échiquier, observez les degrés et les cases visitées en temps réel.
+> ♞ **[Testez la simulation interactive →](https://aminenakrou.github.io/promenade-aleatoire-cavalier-markov)** — Déplacez le cavalier sur un vrai échiquier, observez les degrés et les cases visitées en temps réel.
 
 ---
 
@@ -127,7 +127,7 @@ Le script produit, dans `figures/` :
 
 ## 🎮 Site interactif
 
-Le [site web](https://aminenakrou.github.io/Etude_Markovienne_de_la_promenade_du_cavalier_sur_un_echiquier) propose :
+Le [site web](https://aminenakrou.github.io/promenade-aleatoire-cavalier-markov) propose :
 
 - **♞ Échiquier jouable** — Déplacez le cavalier manuellement ou en mode automatique
 - **🟡 Cases accessibles** — Les mouvements possibles pulsent en or
