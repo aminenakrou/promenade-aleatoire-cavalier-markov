@@ -97,6 +97,9 @@ La bipartition stricte de l'échiquier (cases blanches/noires) explique ce confi
 ## 📁 Structure du projet
 
 ```
+├── code_simulation.py                  # Simulations Python (3 parties)
+├── requirements.txt
+├── figures/                            # Figures générées par le script
 ├── index.html                          # Site web interactif (GitHub Pages)
 ├── projet_MARKOV_version_finale.pdf    # Rapport complet
 └── README.md
@@ -104,12 +107,21 @@ La bipartition stricte de l'échiquier (cases blanches/noires) explique ce confi
 
 ---
 
-## 💻 Code
+## 🚀 Lancer les simulations
 
-Le code Python des simulations (NumPy, Matplotlib, NetworkX, Seaborn, SciPy) est présenté et commenté dans le [rapport](projet_MARKOV_version_finale.pdf). Il génère :
+```bash
+pip install -r requirements.txt
+python code_simulation.py
+```
+
+Le script produit, dans `figures/` :
 - le graphe de transition du cavalier (couleurs = probabilités) ;
-- l'histogramme des temps de retour et le QQ-plot exponentiel ;
-- les 4 heatmaps de la sous-chaîne Y_n (cases 0, 1, 18, 27).
+- l'histogramme des temps de retour à la case 27 et le QQ-plot exponentiel : on retrouve un temps moyen d'environ 42 coups, comme prévu par π(27) = 8/336 ;
+- les 4 heatmaps de la sous-chaîne Y_n = X_{2n} (cases 0, 1, 18, 27) : chaque chaîne ne visite que les 32 cases de même parité.
+
+| Temps de retour à la case 27 | Sous-chaîne Y_n = X_{2n} |
+|---|---|
+| ![Temps de retour](figures/temps_retour_case_27.png) | ![Chaîne Y_n](figures/chaine_pairs_comparaison.png) |
 
 ---
 
