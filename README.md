@@ -99,30 +99,17 @@ La bipartition stricte de l'échiquier (cases blanches/noires) explique ce confi
 ```
 ├── index.html                          # Site web interactif (GitHub Pages)
 ├── projet_MARKOV_version_finale.pdf    # Rapport complet
-├── code_simulation.py                  # Code Python des simulations
 └── README.md
 ```
 
 ---
 
-## 🛠 Prérequis
+## 💻 Code
 
-```bash
-pip install numpy matplotlib networkx seaborn scipy
-```
-
----
-
-## 🚀 Lancer les simulations
-
-```bash
-python code_simulation.py
-```
-
-Le script génère :
-- Le graphe de transition du cavalier (couleurs = probabilités)
-- L'histogramme des temps de retour + QQ-plot exponentiel
-- Les 4 heatmaps de la sous-chaîne Y_n (cases 0, 1, 18, 27)
+Le code Python des simulations (NumPy, Matplotlib, NetworkX, Seaborn, SciPy) est présenté et commenté dans le [rapport](projet_MARKOV_version_finale.pdf). Il génère :
+- le graphe de transition du cavalier (couleurs = probabilités) ;
+- l'histogramme des temps de retour et le QQ-plot exponentiel ;
+- les 4 heatmaps de la sous-chaîne Y_n (cases 0, 1, 18, 27).
 
 ---
 
